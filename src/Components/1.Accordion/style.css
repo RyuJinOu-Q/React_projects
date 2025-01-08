@@ -1,0 +1,94 @@
+/* Overall layout */
+.Overall_layout {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Accordion container */
+.Accordion_layout {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Button for enabling multi-selection */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Item container */
+.item_layout {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Item layout - active state */
+.item_layout:hover {
+    background-color: #f1f1f1;
+}
+
+/* Question layout (clickable part) */
+.question_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.question_layout:hover {
+    color: #007bff;
+}
+
+.question_layout span {
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+/* Answer layout (hidden by default) */
+.answer_layout {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f9f9f9;
+    border-left: 3px solid #007bff;
+    padding: 10px;
+}
+
+/* Styling for when multi-selection is enabled */
+button {
+    margin-top: 20px;
+}
+
+/* Show/hide answer depending on selection */
+.answer_layout {
+    transition: all 0.3s ease;
+}
