@@ -9,20 +9,24 @@ Features:
 🛠️ Tech Stack:
 React.js
 CSS
+
 🚀 How to Run:
 Setup
 Clone the repository.
 Install dependencies:
 bash
 Copy code
+
 npm install
 Run Locally
 bash
 Copy code
+
 npm start
 Build for Production
 bash
 Copy code
+
 npm run build
 Feel free to enhance the styles and functionality as needed! 😊
 
