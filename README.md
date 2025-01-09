@@ -12,7 +12,7 @@ CSS
 
 🚀 How to Run:
 Setup
-Clone the repository.
+Clone the repository.dddd
 Install dependencies:
 bash
 Copy code
